@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".Qusetion">
+
+    <ImageView
+        android:id="@+id/questionImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/backgroun" />
+
+    <Spinner
+        android:id="@+id/answer"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/questionImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+
+        android:background="@drawable/button_rectangle" />
+
+    <Button
+        android:id="@+id/btn_sbmit"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_rectangle"
+        android:text="submit" />
+
+</RelativeLayout>

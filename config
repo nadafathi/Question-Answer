@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	ignorecase = true
+[remote "origin"]
+	url = u92116458@home719852324.1and1-data.host:~/mobileApp/Android
+	fetch = +refs/heads/*:refs/remotes/origin/*

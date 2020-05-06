@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registeration"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_marginTop="30dp"
+        android:text="Name"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:textColor="#80807f"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/tv_reg_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/fullName"
+        android:layout_marginTop="0dp"
+        android:text="Age"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+    <Spinner
+        android:id="@+id/age"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="#11000000"
+        android:layout_below="@id/tv_reg_age"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="143dp"
+
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv_reg_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/age"
+        android:layout_marginTop="0dp"
+        android:text="Gender"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="#11000000"
+        android:layout_below="@id/tv_reg_gender"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="143dp"
+
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv_reg_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/gender"
+        android:layout_marginTop="0dp"
+        android:text="Status"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+
+    <Spinner
+        android:id="@+id/status"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="#11000000"
+        android:layout_below="@id/tv_reg_status"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="143dp"
+
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/tv_reg_occupation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/status"
+        android:layout_marginTop="0dp"
+        android:text="Occupation"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+
+    <Spinner
+        android:id="@+id/occupation"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="#11000000"
+        android:layout_below="@id/tv_reg_occupation"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="143dp"
+
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv_reg_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/occupation"
+        android:layout_marginTop="0dp"
+        android:text="Income"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+
+    <Spinner
+        android:id="@+id/income"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="#11000000"
+        android:layout_below="@id/tv_reg_income"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="143dp"
+
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv_reg_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/income"
+        android:layout_marginTop="0dp"
+        android:text="City"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+
+    <Spinner
+        android:id="@+id/city"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="#11000000"
+        android:layout_below="@id/tv_reg_city"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="143dp"
+
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv_reg_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/city"
+        android:layout_marginTop="0dp"
+        android:text="Phone"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="#11000000"
+        android:layout_below="@id/tv_reg_phone"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="143dp"
+
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tv_reg_nationality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="0dp"
+        android:text="Nationality"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+    <Spinner
+        android:id="@+id/nationality"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:background="#11000000"
+        android:layout_below="@id/tv_reg_nationality"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="143dp"
+
+        android:ems="10"/>
+
+    <TextView
+        android:id="@+id/tv_reg_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/nationality"
+        android:layout_marginTop="0dp"
+        android:text="Email"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:textColor="#80807f"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_reg_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/tv_reg_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fullName"
+        android:layout_alignStart="@id/fullName"
+        android:layout_below="@id/email"
+        android:text="Password"
+        android:textColor="#80807f"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/et_reg_password"
+        android:textColor="#80807f"
+        android:background="#11000000"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_reg_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btn_register"
+        android:background="@drawable/button_rectangle"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_reg_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#80807f"
+
+        android:text="Register"  />
+
+
+
+</RelativeLayout>

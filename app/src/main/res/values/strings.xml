@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">QandA</string>
+    <string-array name="Age">
+        <item>0-18</item>
+        <item>19-29</item>
+        <item>30-39</item>
+        <item>40-49</item>
+        <item>50+</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Status">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+    </string-array>
+
+    <string-array name="Job">
+        <item>Engineer</item>
+        <item>Accountant</item>
+        <item>Architect</item>
+        <item>Artis</item>
+        <item>Actuary</item>
+        <item>Actor</item>
+        <item>Aviator</item>
+        <item>Farming, Fishing, and Forestry Occupations</item>
+        <item>Food Preparation and Serving Related Occupations</item>
+
+    </string-array>
+
+    <string-array name="Nationality">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item> Australia</item>
+        <item>Bangladesh</item>
+        <item>Belgium</item>
+        <item>Bolivia</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Bulgaria</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Czech</item>
+        <item>Denmark</item>
+        <item>Dominican</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>England</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Greece</item>
+        <item>Guatemala</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kenya</item>
+        <item>Kuwait</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Libya</item>
+        <item>Lithuania</item>
+        <item>Malaysia</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Mexico</item>
+        <item>Mongolia</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Nigeria</item>
+        <item>Norway</item>
+        <item>Pakistan</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Saudi Arabia</item>
+        <item>Scotland</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>South Africa</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Thailand</item>
+        <item>Tonga</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wales</item>
+        <item>Welshwoman</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+
+    <string-array name="City">
+        <item>Abha</item>
+        <item>Abqaiq</item>
+        <item>Al-Baḥah</item>
+        <item>Al-Dammam</item>
+        <item>Al-Hufuf</item>
+        <item>Al-Jawf</item>
+        <item>Al-Kharj</item>
+        <item>Al-Khubar</item>
+        <item>Al-Al-Qaṭif</item>
+        <item>Al-Ṭaif</item>
+        <item>Arar</item>
+        <item>Buraydah</item>
+        <item>Dhahran</item>
+        <item>Ḥail</item>
+        <item>Jeddah</item>
+        <item>Jizan</item>
+        <item>Khamis Mushayt</item>
+        <item>Mecca</item>
+        <item>Medina</item>
+        <item>Najran</item>
+        <item>Ras Tanura</item>
+        <item>Riyadh</item>
+        <item>Sakaka</item>
+        <item>Tabuk</item>
+    </string-array>
+
+    <string-array name="Income">
+        <item>0-999</item>
+        <item>1000-2999</item>
+        <item>3000-4999</item>
+        <item>5000-7999</item>
+        <item>8000-9999</item>
+        <item>10000+</item>
+    </string-array>
+
+    <string-array name="Answer">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+</resources>
